@@ -1,16 +1,29 @@
 body{
-    background-color:bisque
+    background-color:rgb(232, 247, 233)
 
 }
 
 
 .stew-content {
-    background-color: rgb(237, 224, 240);
+    background-color: rgb(255, 253, 250);
     width: 700px;
     padding: 10px;
     margin: auto;
 }
 
 h1,h2,h3 {
-    color: blue;
+    color: rgb(122, 163, 113);
+}
+
+footer{
+   background-color: rgb(180, 228, 240); 
+   color: white;
+   padding-top:7px ;
+   padding-bottom: 7px;
+   clear: both;
+   padding-left: 5px;
+}
+
+p{
+    color: rgb(120, 133, 189);
 }
