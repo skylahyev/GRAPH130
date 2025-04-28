@@ -1,0 +1,16 @@
+body{
+    background-color:bisque
+
+}
+
+
+.stew-content {
+    background-color: rgb(237, 224, 240);
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1,h2,h3 {
+    color: blue;
+}
