@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="../styles/fluid.css">
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
+
     <artical class="pure-g hero">
             <section class="pure-u-2-3">
                 <h1>Fluid Project</h1>

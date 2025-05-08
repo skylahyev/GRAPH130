@@ -11,6 +11,14 @@
 	</style>
 	</head>
 	<body>
+		<div id="nav-placeholder"></div>
+		<script>
+			fetch('nav.html')
+			.then(response => response.text())
+			.then(data => {
+			document.getElementById('nav-placeholder').innerHTML = data;
+			});
+		</script>
 <h1>Skylah Gobin-Tolentino</h1>
 <h2>EVCC - Graph 130 - Spring 2025.</h2>
 <h3>How many quarters have you attended EvCC?</h3>
