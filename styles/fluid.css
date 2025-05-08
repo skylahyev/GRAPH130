@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.hero{
+    padding: 2%;
+    
+}
+.hero section img{
+    width: 100%;
+    height: auto;
+}
+
+.mocha{
+    background-color: rgb(83, 122, 125);
+    color: white;
+}
+.mocha section{
+    box-sizing: border-box;
+}
+
+.mocha .em {
+padding: 2em;
+}
+
+.mocha .rem{
+padding: 3rem;
+}
+
+.mocha .percentage p{
+    width: 75%;
+}
+
+.mocha .vw{
+    padding: 5vw;
+}
+
+a{
+    color: rgb(14, 172, 167);
+    text-decoration: none;
+}
