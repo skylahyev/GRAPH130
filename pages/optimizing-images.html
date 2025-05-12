@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= height=device height, initial-scale=1.0">
+    <title>Optimizing Images</title>
+    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+   <style> 
+    .luna{
+    background-color:grey;
+    width: 600px;
+    padding: 7px;
+    margin: 5px;
+    float: left;
+        }
+
+.bruno{
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.clear{
+    clear: both;
+}
+
+.mykah{
+    background-color: lightgray;
+    padding: 0px 5px 5px 0px;
+}
+
+.mykah img{
+vertical-align: top;
+margin: 10px 5px 3px 6px;
+}
+
+h1{
+    font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    </style>
+
+</head>
+<body>
+    <h1>Optimizing Images</h1>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
+    
+    <article class="luna">
+        <img src="../images/80.jpg" alt="80 percent jpg" height="500px">
+        <section class="bruno"><p>80% JPG - 58k<br>The quality is very good</p>
+        </section>
+    </article>
+
+    <article class="luna">
+        <img src="../images/40.jpg" alt="40 percent jpg" height="500px">
+        <section class="bruno"><p>40% JPG - 28k<br>The quality is medium-low</p>
+        </section>
+    </article>
+    
+    <article class="luna">
+        <img src="../images/256.gif" alt="256 color gif sample" height="500px">
+        <section class="bruno"><p>256 Color GIF - 71k<br>The quality is medium</p>
+        </section>
+    </article>
+
+    <article class="luna">
+        <img src="../images/64.gif" alt="64 color gif" height="500px">
+        <section class="bruno"><p>64 Color GIF - 69k<br>The quality is low</p>
+        </section>
+    </article>
+
+    <article class="luna">
+        <img src="../images/8.gif" alt="8 color gif" height="500px">
+        <section class="bruno"><p>8 Color GIF - 29k<br>The quality is very low</p>
+        </section>
+    </article>
+
+    <article class="luna">
+        <img src="../images/24.png" alt="24 png sample" height="500px">
+        <section class="bruno"><p>24 PNG - 199k<br>The quality is really good</p>
+        </section>
+    </article>
+    
+    <div class="clear"></div>
+    <article class="mykah">
+        <img src="../images/01.jpg" alt="white flowers" width="400">
+        <img src="../images/02.jpg" alt="purple flowers" width="400">
+        <img src="../images/03.jpg" alt="white and pink flowers" width="400">
+        <img src="../images/04.jpg" alt="pink flowers" width="400">
+        <img src="../images/05.jpg" alt="pink flowers" width="400">
+        <img src="../images/06.jpg" alt="purple flowers" width="400">
+        <img src="../images/07.jpg" alt="white and pink tulips" width="400">
+        <img src="../images/08.jpg" alt="white and peach flowers" width="400">
+        <img src="../images/09.jpg" alt="pink flowers" width="400">
+        <img src="../images/10.jpg" alt="red flowers" width="400">
+    </article>
+</body>
+</html>
