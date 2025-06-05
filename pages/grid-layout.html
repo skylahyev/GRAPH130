@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Based Project</title>
+    <style>
+        h1,h2,p{
+            padding:10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link href="../styles/mobile.css" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
+    <main>
+        <section>
+            <h1>Grid Based Layout</h1>
+            <p>Graphic and web-designers work in the dimension that can be broken down to the rectangle, be it a page or a screen. This determines the shape of the grid as well. The lines within the grid are customized. Creators can build the grid themselves or rely on ready grid systems, while designers can use the same grid system throughout the whole piece of design, or create a new grid for each page to express their ideas. <a href="https://www.eleken.co/blog-posts/grid-layout-design-history-tips-and-best-examples" target="_blank">eleken.co</a></p>
+        </section>
+
+         <section class="pure-g">
+        <article class="pure-u-1-3">
+            <h2>The Cove</h2>
+            <p><i>SETH ROSENBLOOM</i></p>
+            <p>I’m resting on a tide-bleached tree, and you<br>are looking for stones. Like we’ve always done,<br>from back when our son was little. But now,<br>it’s up to us to fill in the bucket. Stones lapped<br>smooth by the force of the moon. Pigmented<br>in colors of sibling planets. Mars-red. Jupiters<br>with ghostly rings. You’re too far away to hear,<br>and there is no pain, so I won’t make a fuss. It’s just<br>thumps in my throat. My pulse runs up numbers<br>on the screen of my watch, even as I sit here, still.<br>My mind re-walks the trail through the forest<br>to where the headlands open. Down the switchback.<br>Past fallen old growths, their upended roots spider<br>towards the sky. We’re the only ones who hiked here<br>today. Even if there were cell coverage, how many hours<br>before help arrives? So, breathe, bear down on the abdomen<br>like the cardiologist said. Listen to the wind rush<br>into this mouth of salinity. This cove, embraced by hills<br>that shoulder hemlocks. Lava born from the mantel,<br>cooled into outcrops, carved to pool star fish and purple<br>anemones. Home of endless give and take.</p>
+        </article>
+         <article>
+                <h2>SpinalTwsit</h2>
+                <p><i>SOHAM PATEL</i></p>
+                <p>Burden wills on as<br> I (r)age blazed<br> power and the dark.<br> Blissful sleep drool<br> in my sleeve. What’s<br> left of the dancer’s<br> dress? What world<br> can have us happy?<br> The day gets long<br> and years larger.<br> Many people hinge<br> to ennui with flashed<br> matches and tobacco<br> for pipes hold alert<br> virtues to stir often<br> enough and shrug<br> any wrongdoing<br> into good like<br> skin cooled<br> on polished marble<br> in the heat’s hot<br> afternoon. Or to<br> bite into an applev<br> and look up to a sky’s<br> blue. Morning forever<br> can offer new fruits.<br></p>
+            </article>
+            <article>
+                <h2>Debentures</h2>
+                <p><i>SOHAM PATEL</i></p>
+                <p>eyelid kisses<br> the glass larynx<br> opens for breath<br> a drink of water<br> skin sheds<br> blessings for every hair<br> wings bloodied<br> on backwards hawks<br> sounds of a light’s beam<br> i am in the sky<br> you are there singing<br> in between pulsings<br> of a wingspan’s flap<br> sounds of guts falling<br> to the floor before dog<br> licks it up in her mouth<br> then quiet then hum om<br> in the garden or the act<br> ends as origins as horses<br> resemble us, my loves our<br> limited partnership interests<br> provide life we can imagine<br></p>
+            </article>
+        </section>
+        
+        <section class="pure-g">
+            <img src="../images/grid-images/grid-layout1.jpg" class="pure-u-1-4" alt="image">
+            <img src="../images/grid-images/grid-layout2.jpg" class="pure-u-1-4" alt="image">
+            <img src="../images/grid-images/grid-layout3.jpg" class="pure-u-1-4" alt="image">
+            <img src="../images/grid-images/grid-layout4.jpg" class="pure-u-1-4" alt="image">
+        </section>
+        <section>
+            <footer>
+                (EvCC | Spring 2025 | Skylah Gobin-Tolentino)
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
