@@ -24,11 +24,13 @@ main{
     background-color: rgb(149, 141, 170);
     color:white;
     writing-mode: vertical-rl;
-    font-size: 30px;
+    font-size: 25px;
 
   }
 
-  .pure-g{
-    
+  .author{
+    font-size:13px;
+    color:darkgray;
+    font-family: 'Times New Roman', Times, serif;
   }
 
